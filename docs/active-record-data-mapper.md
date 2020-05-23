@@ -58,7 +58,7 @@ const timber = await User.findOne({ firstName: "Timber", lastName: "Saw" });
 ```
 
 `BaseEntity` has most of the methods of  the standard `Repository`.
-Most of the time you don't need to use `Repository` or `EntityManager` with active record entities.
+Most of the time you don't need to use `Repository` or `EntityManager` with Active Record entities.
 
 Now let's say we want to create a function that returns users by first and last name. 
 We can create such functions as a static method in a `User` class:
@@ -187,5 +187,5 @@ Both strategies have their own cons and pros.
 
 One thing we should always keep in mind in with software development is how we are going to maintain our applications.
 The `Data Mapper` approach helps with maintainability, which is more effective in bigger apps.
-The `Active record` approach helps keep things simple which works well in smaller apps.
+The `Active Record` approach helps keep things simple which works well in smaller apps.
  And simplicity is always a key to better maintainability.
